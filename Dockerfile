@@ -11,8 +11,8 @@ ADD stop.sh /apps
 ADD wsgi.py /apps
 RUN rm -rf /tmp/* /var/cache/apk/*
 WORKDIR /apps
-EXPOSE 32000
-EXPOSE 35001-35005
+#EXPOSE 32000
+EXPOSE 35001-35003
 RUN cd /apps && pip3 install -r requirements.txt
 ENTRYPOINT ["sh","-C","start.sh"]
 
