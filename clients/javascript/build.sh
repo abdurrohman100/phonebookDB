@@ -1,1 +1,1 @@
-docker build -t contoh-webserver-webix:latest .
+docker build -t webix-dynamic:latest .

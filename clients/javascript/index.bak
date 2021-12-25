@@ -9,7 +9,7 @@
    <script type="text/javascript" charset="utf-8">
      /* app code */
      /*URL PATH ke service kita */
-    var URLPATH='http://167.172.77.139:35001/phones'
+    var URLPATH='BASEURL'
 
     var grid = {
       id : 'tabelcoba',
