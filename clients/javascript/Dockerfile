@@ -2,8 +2,6 @@ FROM python:3.8-alpine
 RUN mkdir /apps
 ADD index.html /apps
 ADD dynamicURL.sh /apps
-#ARG NODE_ENV
-#ENV NODE_ENV "$NODE_ENV"
 RUN rm -rf /tmp/* /var/cache/apk/*
 WORKDIR /apps
 EXPOSE 9999
